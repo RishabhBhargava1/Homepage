@@ -1,0 +1,66 @@
+* {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: large;
+}
+
+#div {
+  height: 750px;
+  background-color: rgb(255, 241, 241);
+  padding-top: 45px;
+  padding-bottom: 300px;
+  text-align: center;
+}
+
+#LNT {
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+#map {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  size: cover;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(254, 110, 110);
+}
+.container {
+  width: 100%;
+}
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: rgb(254, 110, 110);
+  text-align: center;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+.fixed-footer {
+  bottom: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+.container p {
+  line-height: 200px;
+}
